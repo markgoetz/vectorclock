@@ -1,5 +1,11 @@
+<script lang="ts">
+
+</script>
+
 <div class="weather">
-  <div class="icon">Icon</div>
+  <div class="icon">
+    <svg inline-src="sunny" />
+  </div>
   <div class="temperature">68&deg;F</div>
 </div>
 
