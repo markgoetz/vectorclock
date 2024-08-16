@@ -4,17 +4,19 @@
   import fetchWeather from './lib/fetchWeather';
 
   let temperature = 0;
+  let isDay = 0;
   let code = 0;
-  let sunrise = 0;
-  let sunset = 0;
+  let minTemp = 0;
+  let maxTemp = 0;;
 
   async function updateWeather() {
     const result = await fetchWeather();
     console.log(result);
     temperature = result.temperature;
     code = result.weatherCode;
-    sunrise = result.sunrise;
-    sunset = result.sunset;
+    isDay = result.isDay;
+    minTemp = result.minTemp;
+    maxTemp = result.maxTemp;
   }
 
   function startWeatherLoop(_node: HTMLElement) {
@@ -31,8 +33,9 @@
     <Weather
       temperature={temperature}
       code={code}
-      sunrise={sunrise}
-      sunset={sunset}
+      isDay={isDay}
+      minTemp={minTemp}
+      maxTemp={maxTemp}
     />
   </div>
 </main>

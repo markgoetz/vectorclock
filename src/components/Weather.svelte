@@ -1,15 +1,21 @@
 <script lang="ts">
   export let temperature: number;
   export let code: number;
-  export let sunrise: number;
-  export let sunset: number;
+  export let isDay: number;
+  export let minTemp: number;
+  export let maxTemp: number;
 </script>
 
 <div class="weather">
-  <div class="icon">
-    <svg inline-src="sunny" />
+  <div class="main">
+    <div class="icon">
+      <svg inline-src="sunny" />
+    </div>
+    <div class="temperature">{temperature.toFixed(0)}&deg;</div>
   </div>
-  <div class="temperature">{temperature.toFixed(0)}&deg;F</div>
+  <div class="range">
+    {minTemp.toFixed(0)}&deg;&ndash;{maxTemp.toFixed(0)}&deg;
+  </div>
 </div>
 
 <style>
@@ -19,7 +25,17 @@
     align-items: center;
   }
 
+  .main {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
   .temperature {
-    font-size: 120px;
+    font-size: 80pt;
+  }
+
+  .range {
+    font-size: 40pt;
   }
 </style>

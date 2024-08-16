@@ -27,12 +27,12 @@
   }
 
   .time {
-    font-size: 200px;
+    font-size: 144pt;
     line-height: 65%;
   }
   
   .date {
-    font-size: 80px;
+    font-size: 64pt;
     line-height: 65%;
   }
 </style>

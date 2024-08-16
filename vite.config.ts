@@ -11,8 +11,8 @@ export default defineConfig({
           directories: 'src/assets/icons',
           attributes: {
             class: 'icon',
-            width: '240',
-            height: '240',
+            width: '120',
+            height: '120',
           },
         },
       ],
