@@ -9,7 +9,8 @@
 <div class="weather">
   <div class="main">
     <div class="icon">
-      <svg inline-src="sunny" />
+      {#if isDay}<svg inline-src="sunny" />{/if}
+      {#if !isDay}<svg inline-src="moon" />{/if}
     </div>
     <div class="temperature">{temperature.toFixed(0)}&deg;</div>
   </div>
