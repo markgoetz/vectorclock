@@ -27,7 +27,7 @@
   }
 
   .time {
-    font-size: 144pt;
+    font-size: 150pt;
     line-height: 65%;
   }
   
