@@ -11,7 +11,6 @@
 
   async function updateWeather() {
     const result = await fetchWeather();
-    console.log(result);
     temperature = result.temperature;
     code = result.weatherCode;
     isDay = result.isDay;
