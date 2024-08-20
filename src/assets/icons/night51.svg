@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>night51</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="night51" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="lorge-cloud" fill="#012527" stroke="#32D7E6" stroke-width="4">
+            <path d="M35.3978247,83 L96,83 L96,82.9012766 L114.335784,64.565493 L114.335784,43.4483761 L117.835216,35 L108.218004,11.7819964 L85,2.1647844 L61.7819964,11.7819964 L55.9567609,25.845359 L35,17.1647844 L11.7819964,26.7819964 L2.1647844,50 L11.7819964,73.2180036 L35.3978247,83 Z"></path>
+        </g>
+        <path d="M43.5,88.5 L38,94" id="Line" stroke="#32D7E6" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M31.5,100.5 L26,106" id="Line" stroke="#32D7E6" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M83.5,88.5 L78,94" id="Line-Copy-4" stroke="#32D7E6" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M71.5,100.5 L66,106" id="Line-Copy-3" stroke="#32D7E6" stroke-width="2" stroke-linecap="square"></path>
+    </g>
+</svg>

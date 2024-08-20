@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>day1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="day1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sun" stroke="#32D7E6">
+            <g id="Shape">
+                <polygon stroke-width="4" points="36.0749 36.0749 60 26.1648 83.9251 36.0749 93.8352 60 83.9251 83.9251 60 93.8352 36.0749 83.9251 26.1648 60"></polygon>
+                <path d="M89,89 L103,103" stroke-width="4"></path>
+                <path d="M18,18 L32,32" stroke-width="4"></path>
+                <path d="M32,89 L18,103" stroke-width="4"></path>
+                <path d="M103,18 L89,32" stroke-width="4"></path>
+                <path d="M60,100 L60,120" stroke-width="4"></path>
+                <path d="M60,0 L60,20" stroke-width="4"></path>
+                <path d="M20,60 L4.76837e-07,60" stroke-width="4"></path>
+                <path d="M120,60 L100,60" stroke-width="4"></path>
+            </g>
+        </g>
+        <g id="smol-cloud" transform="translate(9.000000, 56.000000)" fill="#012527" stroke="#32D7E6" stroke-width="4">
+            <path d="M29.8661002,44.5156509 L43.1338998,44.5156509 L52.5156509,35.1338998 L52.5156509,29.9283517 L56.8352156,19.5 L51.7578485,7.2421515 L39.5,2.1647844 L27.2421515,7.2421515 L25.4285863,11.6204852 L19.5,9.1647844 L7.2421515,14.2421515 L2.1647844,26.5 L7.2421515,38.7578485 L19.5,43.8352156 L26.3487993,40.99835 L29.8661002,44.5156509 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

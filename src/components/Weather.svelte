@@ -1,4 +1,7 @@
 <script lang="ts">
+  import DayWeather from "./DayWeather.svelte";
+  import NightWeather from './NightWeather.svelte';
+
   export let temperature: number;
   export let code: number;
   export let isDay: number;
@@ -9,13 +12,13 @@
 <div class="weather">
   <div class="main">
     <div class="icon">
-      {#if isDay}<svg inline-src="sunny" />{/if}
-      {#if !isDay}<svg inline-src="moon" />{/if}
+      {#if isDay}<DayWeather code={code} />{/if}
+      {#if !isDay}<NightWeather code={code} />{/if}
     </div>
     <div class="temperature">{temperature.toFixed(0)}&deg;</div>
   </div>
   <div class="range">
-    {minTemp.toFixed(0)}&deg;&ndash;{maxTemp.toFixed(0)}&deg;
+    {minTemp.toFixed(0)}&deg;-{maxTemp.toFixed(0)}&deg;
   </div>
 </div>
 

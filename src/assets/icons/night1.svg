@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>night1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="night1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M52.9407178,5.08883453 L79.0827728,15.9172272 L92.1647844,47.5 L79.0827728,79.0827728 L47.5,92.1647844 L15.9172272,79.0827728 L5.08883453,52.9407178 L2.16478437,60 L19.1043257,100.895674 L60,117.835216 L100.895674,100.895674 L117.835216,60 L100.895674,19.1043257 L60,2.16478437 L52.9407178,5.08883453 Z" id="moon" stroke="#32D7E6" stroke-width="4"></path>
+        <g id="smol-cloud" transform="translate(9.000000, 56.000000)" fill="#012527" stroke="#32D7E6" stroke-width="4">
+            <path d="M29.8661002,44.5156509 L43.1338998,44.5156509 L52.5156509,35.1338998 L52.5156509,29.9283517 L56.8352156,19.5 L51.7578485,7.2421515 L39.5,2.1647844 L27.2421515,7.2421515 L25.4285863,11.6204852 L19.5,9.1647844 L7.2421515,14.2421515 L2.1647844,26.5 L7.2421515,38.7578485 L19.5,43.8352156 L26.3487993,40.99835 L29.8661002,44.5156509 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

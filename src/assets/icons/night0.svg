@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>night0</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="night0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="moon" stroke="#32D7E6" stroke-width="4">
+            <path d="M52.9407178,5.08883453 L79.0827728,15.9172272 L92.1647844,47.5 L79.0827728,79.0827728 L47.5,92.1647844 L15.9172272,79.0827728 L5.08883453,52.9407178 L2.16478437,60 L19.1043257,100.895674 L60,117.835216 L100.895674,100.895674 L117.835216,60 L100.895674,19.1043257 L60,2.16478437 L52.9407178,5.08883453 Z"></path>
+        </g>
+    </g>
+</svg>

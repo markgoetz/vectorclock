@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>day2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="day2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sun" stroke="#32D7E6">
+            <g id="Shape">
+                <polygon stroke-width="4" points="36.0749 36.3755242 60 26.38284 83.9251 36.3755242 93.8352 60.5 83.9251 84.6244758 60 94.61716 36.0749 84.6244758 26.1648 60.5"></polygon>
+                <path d="M89,89.7416667 L103,103.858333" stroke-width="4"></path>
+                <path d="M18,18.15 L32,32.2666667" stroke-width="4"></path>
+                <path d="M32,89.7416667 L18,103.858333" stroke-width="4"></path>
+                <path d="M103,18.15 L89,32.2666667" stroke-width="4"></path>
+                <path d="M60,100.833333 L60,121" stroke-width="4"></path>
+                <path d="M60,0 L60,20.1666667" stroke-width="4"></path>
+                <path d="M20,60.5 L4.76837e-07,60.5" stroke-width="4"></path>
+                <path d="M120,60.5 L100,60.5" stroke-width="4"></path>
+            </g>
+        </g>
+        <g id="med-cloud" transform="translate(12.000000, 32.000000)" fill="#012527" stroke="#32D7E6" stroke-width="4">
+            <path d="M28.8978247,70 L73,70 L73,69.5676112 L74.3150952,69.5676112 L88.5676112,55.3150952 L88.5676112,43.6313356 L94.8352156,28.5 L87.1218095,9.87819047 L68.5,2.1647844 L49.8781905,9.87819047 L44.171227,23.6560191 L28.5,17.1647844 L9.87819047,24.8781905 L2.1647844,43.5 L9.87819047,62.1218095 L28.8978247,70 Z M73.8827064,70 L75,70 L75,71.4240889 L73.7293088,70.1533976 L73.8827064,70 Z"></path>
+        </g>
+    </g>
+</svg>
