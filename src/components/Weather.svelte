@@ -40,7 +40,7 @@
   }
 
   .range {
-    font-size: 40pt;
-    line-height: 45%;
+    font-size: 48pt;
+    line-height: 65%;
   }
 </style>
