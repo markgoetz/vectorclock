@@ -11,7 +11,7 @@
 
 <div class="weather">
   <div class="main">
-    <div class="icon" style="--bg-color: #012527; --fg-color: #32D7E6">
+    <div class="icon">
       {#if isDay}<DayWeather code={code} />{/if}
       {#if !isDay}<NightWeather code={code} />{/if}
     </div>
