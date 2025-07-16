@@ -5,7 +5,7 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="day0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="sun" stroke="#32D7E6">
+        <g id="sun" stroke="currentColor">
             <g id="Shape">
                 <polygon stroke-width="4" points="36.0749 36.0749 60 26.1648 83.9251 36.0749 93.8352 60 83.9251 83.9251 60 93.8352 36.0749 83.9251 26.1648 60"></polygon>
                 <path d="M89,89 L103,103" stroke-width="4"></path>
