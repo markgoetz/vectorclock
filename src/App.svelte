@@ -30,7 +30,7 @@
       updateWeather();
     }, 1000 * 60 * 15);
 
-    window.setInterval(updateHue, 1000 * 60)
+    window.setInterval(updateHue, 1000 * 22)
   }
 </script>
 
