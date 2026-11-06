@@ -1,0 +1,18 @@
+.main {
+  color: var(--fg-color);
+  background-color: var(--bg-color);
+  height: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  max-width: 1280px;
+  height: 400px;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,25 +1,21 @@
 import { defineConfig } from 'vite'
-import { inlineSvg } from '@svelte-put/preprocess-inline-svg/vite';
-import { svelte } from '@sveltejs/vite-plugin-svelte'
+import react from '@vitejs/plugin-react'
+import svgr from 'vite-plugin-svgr'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    inlineSvg(
-      [
-        {
-          directories: 'src/assets/icons',
-          attributes: {
-            class: 'icon',
-            width: '120',
-            height: '120',
-          },
+    react(),
+    svgr({
+      include: '**/*.svg?react',
+      svgrOptions: {
+        icon: false,
+        svgProps: {
+          className: 'icon',
+          width: '120',
+          height: '120',
         },
-      ],
-      {
-        inlineSrcAttributeName: 'inline-src',
       },
-    ),
-    svelte(),
+    }),
   ],
 })
