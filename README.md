@@ -11,4 +11,4 @@ Built with React, TypeScript, and Vite.
 * `yarn dev` runs the development server.
 * `yarn build` builds the production version.
 * `yarn preview` runs the production build locally.
-* `yarn run check` runs ESLint and TypeScript typechecking.
+* `yarn run check` runs ESLint and TypeScript typechecking; it also runs automatically on commit.
