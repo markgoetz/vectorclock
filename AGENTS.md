@@ -48,7 +48,7 @@ Any of these changes can be made without confirmation:
 
 Do not change the location in Philadelphia, time zone, or target platform or resolution.
 
-`yarn run check` must be run and the output verified to have no errors before committing.
+`yarn run check` must be run and the output verified to have no errors before committing.  A husky pre-commit hook runs it through lint-staged (configured in `lint-staged.config.js`) whenever staged files include `.ts`, `.tsx` or `.js`; run it manually first when committing other file types.
 
 ## Code best practices
 
