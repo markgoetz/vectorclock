@@ -15,6 +15,7 @@ SVG icons are rendered by a single `WeatherIcon` component, which loads them fro
 ## Layout
 
 * `public` contains all assets that must be readable directly from the browser.  At present, the only assets are the font file and favicon.
+* `thoughts` is gitignored, local-only working material: research notes (`thoughts/research`) and implementation plans (`thoughts/plans`) produced by the `/research` and `/plan` skills.
 * `sourceassets` represents the source files used to help build graphics assets.  These should never be touched.
 * `src` represents the source code and source assets that are built into the application.  This includes components, styling, and visual assets.
   * `src/assets` contains assets to be added to the application, such as SVG files.
