@@ -11,6 +11,14 @@
   height: 400px;
 }
 
+.idle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1280px;
+  height: 400px;
+}
+
 .cell {
   display: flex;
   justify-content: center;

@@ -20,7 +20,8 @@ SVG icons are rendered by a single `WeatherIcon` component, which loads them fro
 * `src` represents the source code and source assets that are built into the application.  This includes components, styling, and visual assets.
   * `src/assets` contains assets to be added to the application, such as SVG files.
   * `src/components` contains visual components (`.tsx`) and their CSS Modules (`.module.css`).
-  * `src/lib` contains API services; in this case, the connection to OpenMeteo.
+  * `src/consts` contains shared constants, such as date format strings.
+  * `src/lib` contains API services and small pure helpers; in this case, the connection to OpenMeteo and the overnight-hours check.
 
 ## Commands
 
