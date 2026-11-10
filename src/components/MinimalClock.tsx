@@ -7,7 +7,13 @@ interface MinimalClockProps {
 }
 
 function MinimalClock({ now }: MinimalClockProps) {
-  return <div className={styles.time}>{format(now, TIME_FORMAT)}</div>;
+  return (
+    <div className={styles.bounceX}>
+      <div className={styles.bounceY}>
+        <div className={styles.time}>{format(now, TIME_FORMAT)}</div>
+      </div>
+    </div>
+  );
 }
 
 export default MinimalClock;
