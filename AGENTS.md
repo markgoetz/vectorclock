@@ -55,6 +55,6 @@ Do not change the location in Philadelphia, time zone, or target platform or res
 
 Moving forward, code should be formatted with spaces rather than tabs.  This ensures that alignment is kept regardless of your tab setup.
 
-Files must be kept under 200 lines long.
+Files must be kept under 200 lines long, except for test files.
 
 Files within `src/components` and `src/lib` must be named after their default export.

@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "check": "eslint . && tsc -p tsconfig.json --noEmit && tsc -p tsconfig.node.json",
+    "test": "vitest run",
+    "check": "eslint . && tsc -p tsconfig.json --noEmit && tsc -p tsconfig.node.json && yarn test",
     "prepare": "husky"
   },
   "devDependencies": {
@@ -20,6 +21,7 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "globals": "^17.14.0",
     "husky": "^9.1.7",
+    "jsdom": "^31.0.0",
     "lint-staged": "^17.6.0",
     "tslib": "^2.6.3",
     "typescript": "5.9.3",
@@ -28,9 +30,12 @@
     "vite-plugin-svgr": "^5.2.0"
   },
   "dependencies": {
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/react": "^16.3.3",
     "date-fns": "^3.6.0",
     "openmeteo": "^1.1.4",
     "react": "^19.3.1",
-    "react-dom": "^19.3.1"
+    "react-dom": "^19.3.1",
+    "vitest": "^5.1.0"
   }
 }
