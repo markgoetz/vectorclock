@@ -1,0 +1,35 @@
+.bounceX {
+  width: 562px;
+  animation: bounceX 18s linear infinite alternate;
+}
+
+.bounceY {
+  animation: bounceY 8.2s linear infinite alternate;
+}
+
+.time {
+  width: 562px;
+  height: 55pt;
+  font-size: 100pt;
+  line-height: 0.55;
+  text-align: center;
+  white-space: nowrap;
+}
+
+@keyframes bounceX {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(1280px - 562px));
+  }
+}
+
+@keyframes bounceY {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(calc(400px - 55pt));
+  }
+}

@@ -11,6 +11,13 @@
   height: 400px;
 }
 
+.idle {
+  overflow: hidden;
+  width: 100%;
+  max-width: 1280px;
+  height: 400px;
+}
+
 .cell {
   display: flex;
   justify-content: center;
