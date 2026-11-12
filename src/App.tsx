@@ -4,7 +4,7 @@ import MinimalClock from './components/MinimalClock';
 import Weather from './components/Weather';
 import fetchWeather from './lib/fetchWeather';
 import getColors from './lib/getColors';
-import isOvernight from './lib/isOvernight';
+import isIdleTime from './lib/isIdleTime';
 import styles from './App.module.css';
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
     return () => window.clearInterval(id);
   }, []);
 
-  const idle = isOvernight(now);
+  const idle = isIdleTime(now);
 
   useEffect(() => {
     function updateHue() {
