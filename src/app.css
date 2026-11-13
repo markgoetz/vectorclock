@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'Kepler452b';
-  src: url('/Kepler452b-Regular.woff2') format('woff2');
+  font-family: "Kepler452b";
+  src: url("/Kepler452b-Regular.woff2") format("woff2");
 }
 
 :root {
-  font-family: 'Kepler452b', sans-serif;
+  font-family: "Kepler452b", sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

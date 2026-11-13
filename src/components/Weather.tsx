@@ -1,5 +1,5 @@
-import WeatherIcon from './WeatherIcon';
-import styles from './Weather.module.css';
+import WeatherIcon from "./WeatherIcon";
+import styles from "./Weather.module.css";
 
 interface WeatherProps {
   temperature: number;

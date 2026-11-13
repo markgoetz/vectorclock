@@ -1,6 +1,6 @@
-import { format } from 'date-fns/format';
-import { TIME_FORMAT } from '../consts/dateFormats';
-import styles from './MinimalClock.module.css';
+import { format } from "date-fns/format";
+import { TIME_FORMAT } from "../consts/dateFormats";
+import styles from "./MinimalClock.module.css";
 
 interface MinimalClockProps {
   now: Date;

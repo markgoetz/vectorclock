@@ -1,18 +1,18 @@
-import { fetchWeatherApi } from 'openmeteo';
+import { fetchWeatherApi } from "openmeteo";
 
 const url = "https://api.open-meteo.com/v1/forecast";
 
 const params = {
-  "latitude": 39.9523,
-  "longitude": -75.1638,
-  "current": ["temperature_2m", "is_day", "weather_code"],
-  "daily": ["temperature_2m_min", "temperature_2m_max"],
-  "temperature_unit": "fahrenheit",
-  "wind_speed_unit": "mph",
-  "precipitation_unit": "inch",
-  "timezone": "America/New_York",
-  "forecast_days": 1,
-  "models": "gfs_hrrr",
+  latitude: 39.9523,
+  longitude: -75.1638,
+  current: ["temperature_2m", "is_day", "weather_code"],
+  daily: ["temperature_2m_min", "temperature_2m_max"],
+  temperature_unit: "fahrenheit",
+  wind_speed_unit: "mph",
+  precipitation_unit: "inch",
+  timezone: "America/New_York",
+  forecast_days: 1,
+  models: "gfs_hrrr",
 };
 
 const fetchWeather = async () => {
