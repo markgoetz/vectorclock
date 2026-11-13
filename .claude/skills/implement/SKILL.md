@@ -13,7 +13,7 @@ Handle each step in the plan one at a time, and wait for positive user confirmat
 Follow the rules in AGENTS.md while implementing:
 
 * Get explicit user confirmation before making any change that affects what is displayed on screen (styling, colors, color cycling, icons, layout, font) or that touches `package.json` or `yarn.lock`, even if the plan already lists it.
-* Keep files under 200 lines, use spaces rather than tabs, and name files in `src/components` and `src/lib` after their default export.
+* Name files in `src/components` and `src/lib` after their default export.
 * Do not change the location, time zone, target platform, or resolution.
 
 After the final step, run `yarn run check` and report the result.  Do not report the work as complete if the check has errors.

@@ -12,7 +12,7 @@ Before planning, check `thoughts/research` for research relevant to the change a
 Plans must respect the constraints in AGENTS.md:
 
 * The location (Philadelphia), time zone (America/New_York), and target platform and resolution (1280x400) are fixed.
-* Files must stay under 200 lines, use spaces rather than tabs, and files in `src/components` and `src/lib` must be named after their default export.
+* Files in `src/components` and `src/lib` must be named after their default export.
 * Mark any step that affects what is displayed on screen (styling, colors, color cycling, icons, layout, font) or that touches `package.json` or `yarn.lock`, since those require user confirmation before they are made.
 * The final step must be running `yarn run check` and verifying there are no errors.
 
