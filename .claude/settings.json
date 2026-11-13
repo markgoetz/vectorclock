@@ -29,7 +29,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "echo 'Reminder: the location (Philadelphia), time zone (America/New_York), and target resolution (1280x400) are fixed. Get user confirmation before changing anything displayed on screen or package.json/yarn.lock. Keep files under 200 lines, use spaces not tabs, and name files in src/components and src/lib after their default export.'"
+            "command": "echo 'Reminder: the location (Philadelphia), time zone (America/New_York), and target resolution (1280x400) are fixed. Get user confirmation before changing anything displayed on screen or package.json/yarn.lock. Name files in src/components and src/lib after their default export.'"
           }
         ]
       }

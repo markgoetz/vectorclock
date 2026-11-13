@@ -1,11 +1,11 @@
-import { useEffect, useState } from 'react';
-import FullClock from './components/FullClock';
-import MinimalClock from './components/MinimalClock';
-import Weather from './components/Weather';
-import fetchWeather from './lib/fetchWeather';
-import getColors from './lib/getColors';
-import isIdleTime from './lib/isIdleTime';
-import styles from './App.module.css';
+import { useEffect, useState } from "react";
+import FullClock from "./components/FullClock";
+import MinimalClock from "./components/MinimalClock";
+import Weather from "./components/Weather";
+import fetchWeather from "./lib/fetchWeather";
+import getColors from "./lib/getColors";
+import isIdleTime from "./lib/isIdleTime";
+import styles from "./App.module.css";
 
 function App() {
   const [now, setNow] = useState(() => new Date());

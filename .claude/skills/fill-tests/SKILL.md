@@ -32,7 +32,6 @@ If the user decides the code is wrong, write the test to the intended behavior a
 
 ## Constraints from AGENTS.md
 
-* Spaces, not tabs.  Test files may exceed 200 lines.
 * Do not change the Philadelphia location, the America/New_York time zone, or the 1280x400 target.
 * Do not add packages.  Use what is already installed (vitest, testing-library).
 

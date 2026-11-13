@@ -1,4 +1,4 @@
-import { getHours } from 'date-fns/getHours';
+import { getHours } from "date-fns/getHours";
 
 function isIdleTime(date: Date): boolean {
   const hour = getHours(date);

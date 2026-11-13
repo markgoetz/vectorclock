@@ -1,6 +1,6 @@
-import { format } from 'date-fns/format';
-import { DATE_FORMAT, TIME_FORMAT } from '../consts/dateFormats';
-import styles from './FullClock.module.css';
+import { format } from "date-fns/format";
+import { DATE_FORMAT, TIME_FORMAT } from "../consts/dateFormats";
+import styles from "./FullClock.module.css";
 
 interface FullClockProps {
   now: Date;

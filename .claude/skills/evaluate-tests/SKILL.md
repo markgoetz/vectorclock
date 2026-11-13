@@ -38,6 +38,4 @@ When adding tests, follow these rules for the names of the `describe` and `it.to
 * Additional `describe` blocks should be named after their precondition, such as `when the user is logged in`.
 * `it.todo` test cases should be named after the scenario they are testing, such as `renders a login prompt`.
 
-The 200-line limit can be overridden for test files.
-
 After making changes to the test file, note that the user should run `yarn run check` to verify that the test file still passes.

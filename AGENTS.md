@@ -30,7 +30,7 @@ The commands can be found in `package.json`.
 * `yarn dev` runs the server in development mode.
 * `yarn build` builds the production version of the application.
 * `yarn preview` runs the production application locally.
-* `yarn run check` runs ESLint (including `jsx-a11y` accessibility rules) and TypeScript typechecking.
+* `yarn run check` runs Prettier (rewriting files to match the project formatting), ESLint (including `jsx-a11y` accessibility rules and the file length limit), and TypeScript typechecking.
 
 The production application is hosted and deployed on Netlify.  The Raspberry Pi is a display client that shows the application in a Chromium browser.
 
@@ -52,9 +52,5 @@ Do not change the location in Philadelphia, time zone, or target platform or res
 `yarn run check` must be run and the output verified to have no errors before committing.  A husky pre-commit hook runs it through lint-staged (configured in `lint-staged.config.js`) whenever staged files include `.ts`, `.tsx` or `.js`; run it manually first when committing other file types.
 
 ## Code best practices
-
-Moving forward, code should be formatted with spaces rather than tabs.  This ensures that alignment is kept regardless of your tab setup.
-
-Files must be kept under 200 lines long, except for test files.
 
 Files within `src/components` and `src/lib` must be named after their default export.
